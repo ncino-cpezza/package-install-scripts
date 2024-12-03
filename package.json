@@ -1,0 +1,15 @@
+{
+  "name": "package-install-scripts",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Package Install Script",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+    "prettier:verify": "prettier --check \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+    "perform:generate": "./srcipts/generation/generate_installers.sh",
+    "perform:install": "./scripts/installation/install_packages.sh"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
+}
