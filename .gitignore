@@ -45,5 +45,5 @@ $RECYCLE.BIN/
 **/venv/
 
 installLinks.csv
-src/1gp
-src/2gp
+src/packages
+claude.md
